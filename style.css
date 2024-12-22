@@ -1,0 +1,94 @@
+/* Gaya dasar */
+body {
+  background-image: url('https://www.w3schools.com/w3images/mountains.jpg');
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header, section, footer {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.price {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #2d0e07;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+.center-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.header-bg {
+  background-image: url('https://th.bing.com/th/id/OIP.rOjFDZAZbSboc8X2S72gQgHaEK?rs=1&pid=ImgDetMain');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
